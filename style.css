@@ -69,4 +69,16 @@ footer small{display:block;margin-top:14px;opacity:.75}
 .page h2{text-align:left;font-size:1.3rem;margin:24px 0 8px}
 .page p,.page li{color:var(--muted);margin-bottom:10px}
 .page ul{padding-left:20px}
+@media(max-width:600px){
+  .wrap{padding-inline:14px}
+  header.site .wrap{gap:8px}
+  header.site .logo{font-size:1.05rem;letter-spacing:0}
+  header.site .wa-sm{font-size:.78rem;padding:8px 10px;gap:6px;border-width:3px}
+  header.site .wa-sm svg{width:1.25em;height:1.25em}
+  .wa-xl{font-size:clamp(1rem,5vw,1.35rem);padding:16px 14px}
+  .float-wa{font-size:clamp(.9rem,4vw,1.25rem);padding:14px 12px}
+  section{padding:42px 0}
+  .hero .wrap{gap:26px;padding-top:36px;padding-bottom:42px}
+  .hero p.lead{font-size:1rem}
+}
 
