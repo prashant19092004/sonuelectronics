@@ -1,5 +1,5 @@
 
-const whatsappUrl = "https://wa.me/916206604163?text=Hi%2C%20I%20want%20ID.";
+const whatsappUrl = "https://wa.me/917700889152?text=Hi%2C%20I%20want%20ID.";
 
 document.querySelectorAll(".wa-btn").forEach((button) => {
   button.href = whatsappUrl;
